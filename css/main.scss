@@ -59,23 +59,19 @@ header {
 #trip-pic {
   height: 20em;
   width: 30em;
-  float: right;
 }
 
 #trip-hopper {
   color: white;
-  float: left;
 }
 
 #germanx {
   color: white;
-  float: right;
 }
 
 #germanx-pic {
   height: 20em;
   width: 30em;
-  float: left;
 }
 
 #me-pic {
@@ -86,6 +82,7 @@ header {
 
 #trip {
   display: block;
+  width: 100%
 }
 
 #germ {
