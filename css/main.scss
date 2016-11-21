@@ -31,7 +31,7 @@ header {
 }
 
 .links {
-  height: 60em;
+  height: 200em;
   background-color: black;
   display: flex;
   background:
@@ -50,7 +50,7 @@ header {
 
 }
 
-a {
+.social a {
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -59,19 +59,23 @@ a {
 #trip-pic {
   height: 20em;
   width: 30em;
+  float: right;
 }
 
 #trip-hopper {
   color: white;
+  float: left;
 }
 
 #germanx {
   color: white;
+  float: right;
 }
 
 #germanx-pic {
   height: 20em;
   width: 30em;
+  float: left;
 }
 
 #me-pic {
