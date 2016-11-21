@@ -20,7 +20,7 @@ header {
   text-shadow: 0 3px 0 black; }
 
 .links {
-  height: 40em;
+  height: 400em;
   background-color: black;
   display: flex;
   background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.9)), url(./JS-logo.png);
@@ -30,7 +30,7 @@ header {
 .logo {
   margin: auto; }
 
-a {
+.social a {
   display: inline-block;
   position: relative;
   vertical-align: middle; }
@@ -42,9 +42,23 @@ a {
 #trip-hopper {
   color: white; }
 
+#germanx {
+  color: white; }
+
+#germanx-pic {
+  height: 20em;
+  width: 30em; }
+
 #me-pic {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+#trip {
+  display: block;
+  width: 100%; }
+
+#germ {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
