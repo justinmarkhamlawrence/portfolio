@@ -1,4 +1,4 @@
-$primary-color: green;
+
 
 header {
   border-top: 3em solid black;
@@ -31,7 +31,7 @@ header {
 }
 
 .links {
-  height: 40em;
+  height: 60em;
   background-color: black;
   display: flex;
   background:
@@ -63,6 +63,15 @@ a {
 
 #trip-hopper {
   color: white;
+}
+
+#germanx {
+  color: white;
+}
+
+#germanx-pic {
+  height: 20em;
+  width: 30em;
 }
 
 #me-pic {
