@@ -22,7 +22,6 @@ header {
 .links {
   height: 400em;
   background-color: black;
-  display: flex;
   background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.9)), url(./JS-logo.png);
   background-repeat: no-repeat;
   background-position: right bottom; }
@@ -35,12 +34,23 @@ header {
   position: relative;
   vertical-align: middle; }
 
-#trip-pic {
+.app-pic {
   height: 20em;
-  width: 30em; }
+  margin: 2em 10em;
+  max-width: 70%;
+  min-width: 50%; }
 
-#trip-hopper {
-  color: white; }
+.description, .about-me {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3em;
+  color: #838383; }
+
+.project {
+  display: block;
+  width: 80%;
+  margin: auto; }
 
 #germanx {
   color: white; }
@@ -54,11 +64,8 @@ header {
   margin-left: auto;
   margin-right: auto; }
 
-#trip {
-  display: block;
-  width: 100%; }
-
 #germ {
-  display: block; }
+  display: block;
+  width: 80%; }
 
 /*# sourceMappingURL=main.css.map */
