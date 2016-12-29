@@ -1,3 +1,6 @@
+* {
+  font-family: Arial, Helvetica, sans-serif; }
+
 header {
   border-top: 3em solid black;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(./raspberry-pi-1719220_1920.jpg);
@@ -20,7 +23,7 @@ header {
   text-shadow: 0 3px 0 black; }
 
 .links {
-  height: 140em;
+  height: 180em;
   background-color: black;
   background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.9)), url(./JS-logo.png);
   background-repeat: no-repeat;
@@ -43,10 +46,7 @@ header {
   height: 20em;
   margin: 2em 10em;
   max-width: 70%;
-  min-width: 50%; }
-
-.x-pic {
-  margin-left: 15em; }
+  min-width: 70%; }
 
 .description, .about-me {
   max-width: 80%;
